@@ -30,7 +30,7 @@
 }
 
 .game {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   box-shadow: 0 0 20px 5px rgb(69, 69, 69);
   width: 80vw;
@@ -53,29 +53,29 @@
 .button-top-left {
   border-radius: 100% 0 0 0;
   margin: 20px 0 0 20px;
-  background-color: green;
-  border: thick solid rgb(36, 53, 0);
+  background-color: violet;
+  border: thick solid black;
 }
 
 .button-top-right {
   border-radius: 0 100% 0 0;
   margin: 20px 20px 0 0;
-  background-color: red;
-  border: thick solid rgb(83, 12, 12);
+  background-color: crimson;
+  border: thick solid black;
 }
 
 .button-bottom-left {
   border-radius: 0 0 0 100%;
   margin: 0 0 20px 20px;
-  background-color: yellow;
-  border: thick solid rgb(130, 124, 13);
+  background-color: orange;
+  border: thick solid black;
 }
 
 .button-bottom-right {
   border-radius: 0 0 100% 0;
   margin: 0 20px 20px 0;
-  background-color: blue;
-  border: thick solid rgb(27, 14, 100);
+  background-color: teal;
+  border: thick solid black;
 }
 
 .controls {
@@ -95,6 +95,7 @@
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0.5em;
+  color: black;
 }
 
 .score {
@@ -116,4 +117,6 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+  border: 5px solid black;
 }
